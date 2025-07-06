@@ -1,105 +1,121 @@
-/* Base Styles */
-body {
-  font-family: 'Proxima Nova', Arial, sans-serif;
+* {
   margin: 0;
-  background-color: #FFF5DC; /* Soft beige */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Proxima Nova', sans-serif;
+  background-color: #FFF9E9;
   color: #000;
+  line-height: 1.6;
 }
 
-h1, h2, h3 {
-  font-family: 'Georgia Pro', Georgia, serif;
-}
-
-/* Header */
 header {
+  padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: #FFF5DC;
+  background-color: #FFF9E9;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.4rem;
+}
+
+.logo img {
+  height: 32px;
+  margin-right: 10px;
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 2rem;
+  color: #4f9ec9;
+  font-weight: bold;
   text-decoration: none;
-  color: #88AEBF; /* Brand blue */
-  font-weight: 600;
+  font-size: 1.1rem;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px;
-  gap: 40px;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background-color: #FFF9E9;
 }
 
-.hero-text {
+.hero-left {
   flex: 1;
-  min-width: 300px;
+  max-width: 600px;
 }
 
-.hero-text h1 {
-  font-size: 2.8em;
-  margin-bottom: 20px;
-  line-height: 1.2;
+.hero-left h1 {
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-.hero-text p {
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin-bottom: 30px;
+.hero-left p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 
-.cta-buttons {
+.buttons {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
 }
 
 button.primary {
-  background-color: #F4C542; /* Warm yellow */
-  border: none;
-  padding: 12px 20px;
+  background-color: #FDD340;
+  color: #000;
+  padding: 0.75rem 1.5rem;
   font-weight: bold;
-  color: white;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button.secondary {
-  background-color: #88AEBF; /* Muted blue */
-  border: none;
-  padding: 12px 20px;
+  background-color: #C2E7F4;
+  color: #000;
+  padding: 0.75rem 1.5rem;
   font-weight: bold;
-  color: white;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.hero-image img {
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hero-right img {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* Gallery Section */
 .gallery {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 20px;
-  background-color: #FFF5DC;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #fff;
 }
 
 .gallery img {
-  width: 30%;
-  max-width: 300px;
-  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
   object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
