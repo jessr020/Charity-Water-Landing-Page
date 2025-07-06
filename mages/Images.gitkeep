@@ -1,5 +1,22 @@
-JS_20140424_3157.jpg (dirty water)
+<div>
+  <!-- Dirty water in metal buckets -->
+  <img
+    src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/images/JS_20140424_3157.jpg"
+    alt="Buckets of dirty water"
+    width="600"
+  />
 
-Zimbabwe_2022_CG-0486.jpg (glass of clean water)
+  <!-- Clear water in a glass held up -->
+  <img
+    src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/images/Zimbabwe_2022_CG-0486.jpg"
+    alt="Hand holding clean glass of water"
+    width="600"
+  />
 
-charity_water_Tanzania_TaraShupePhotography_0258.jpg (child washing)
+  <!-- Child washing face with running water -->
+  <img
+    src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/images/charity_water_Tanzania_TaraShupePhotography_0258.jpg"
+    alt="Child washing face with clean water"
+    width="600"
+  />
+</div>
