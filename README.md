@@ -1,44 +1,43 @@
-# 💧 Charity: Water Landing Page
+# 💧 Charity: Water – Landing Page Project
 
-This project is a custom-designed landing page created to support and promote the mission of [charity: water](https://www.charitywater.org) — a nonprofit organization bringing clean and safe drinking water to people in developing countries.
+A clean, impactful landing page built to promote the mission of **charity: water**, a nonprofit that brings clean and safe drinking water to people in developing countries.
 
-## 🌟 Purpose
+## 🎯 Project Purpose
 
-Designed as part of a marketing initiative to inspire **young changemakers** like *Emma, the Activist Student*, this landing page:
-- Showcases the **impact of clean water**
-- Emphasizes **transparency** and **real-time results**
-- Evokes feelings of **hope, urgency, and empowerment**
+This landing page is designed for **Emma, the Activist Student**, a persona who values measurable impact and transparency. It showcases:
+- A clear call to action
+- Tangible before-and-after imagery
+- A hopeful, youth-focused aesthetic
 
-## 🖼 Live Demo
+## 🖼 Live Preview
 
-[🔗 View Live Site](#) *(insert your GitHub Pages or Netlify link here once deployed)*
-
----
-
-## 🎨 Design Features
-
-- **Hero Section** with call-to-action buttons
-- **Impact Image Gallery** showing before/after water access
-- Custom color palette:
-  - Bright Yellow `#FDD340`
-  - Sky Blue `#C2E7F4`
-  - Cream Background `#FFF9E9`
-  - Bold Black Text `#000000`
-- Clean, modern **typography** using:
-  - `Georgia` for headlines
-  - `Proxima Nova` (or fallback sans-serif) for body text
+👉 [Deploy this on GitHub Pages or Netlify and put your link here]
 
 ---
 
-## 🚀 Technologies Used
+## 📁 File Structure
 
-- **HTML5**
-- **CSS3**
-- Hosted images via **GitHub**
-- Fonts via **Google Fonts** (`Georgia`)
-- Mobile-friendly and responsive layout (optional feature pending)
 
 ---
 
-## 📂 Project Structure
+## 🌈 Brand Guidelines
+
+- **Primary Colors**
+  - Yellow: `#FDD340`
+  - Sky Blue: `#C2E7F4`
+  - Cream: `#FFF9E9`
+  - Black: `#000000`
+
+- **Typography**
+  - Headlines: Georgia, serif
+  - Body text: Proxima Nova or sans-serif
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Charity-Water-Landing-Page.git
+
 
